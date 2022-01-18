@@ -1,17 +1,39 @@
-<form>
+<form class="add-form"(ngSubmit)="onSubmit()">
     <div class="form-control">
         <label for="text">Tareas</label>
-        <input type="text" name="text" id="text" placeholder="Agregar tarea:"/>
+        <input 
+            type="text" 
+            name="text" 
+            id="text" 
+            placeholder="Agregar tarea:"
+            [(ngModel)]="text"
+        />
     </div>
     <div class="form-control">
         <label for="day">Dia y Hora</label>
-        <input type="text" name="day" id="day" placeholder="Dia y Hora"/>
+        <input 
+            type="text" 
+            name="day" 
+            id="day" 
+            placeholder="Dia y Hora"
+            [(ngModel)]="day"
+        />
     </div>
     <div class="form-control form-control-check">
         <label for="reminder">Recordar</label>
-        <input type="checkbox" name="reminder" id="reminder" placeholder="Recordar"/>
+        <input 
+            type="checkbox" 
+            name="reminder" 
+            id="reminder" 
+            placeholder="Recordar"
+            [(ngModel)]="reminder"
+        />
     </div>
-    
+    <input 
+        type="submit" 
+        value="+ tarea" 
+        class="btn btn-block"
+    />
 
 
 </form>
