@@ -16,5 +16,7 @@ faTimes = faTimes;
 
   ngOnInit(): void {
   }
-
+ onDelete(){
+   console.log("chau");
+ }
 }

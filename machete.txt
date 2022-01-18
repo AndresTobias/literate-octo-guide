@@ -1,0 +1,25 @@
+para instalar el servidor json-server que te permite acceder a un json como una bd.
+
+$ npm install json-server  o  $ npm i -g json-server
+
+-------------------------------------------------------
+despues de istalar modificar el archivo package.json 
+agregar {"server": "json-server --watch db.json --port 5000"}
+te permite llamarlo solo con 
+ng run server
+
+
+ "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "server": "json-server --watch db.json --port 5000"
+-----------------------------------------------------------
+"ng run server" en una terminal de vsc o "json-server --watch db.json --port 5000" 
+en un terminal bash de git te abre el db.json si no encuentra el archivo te crea uno
+y podes acceder desde localhost:5000 si configuraste el script en el puerto 5000 
+por defecto usa el puerto 3000.
+
+
