@@ -17,6 +17,24 @@
       "text": "texto13",
       "day": "dia 3 a las x horas",
       "reminder": true
+    },
+    {
+      "text": "mi primer tarea agregada",
+      "day": "18 de enero 2022 a las 16:16",
+      "reminder": true,
+      "id": 5
+    },
+    {
+      "text": "la segunda tarea",
+      "day": "18 de enero 2022 a las 16:37",
+      "reminder": true,
+      "id": 6
+    },
+    {
+      "text": "la segunda tarea",
+      "day": "18 de enero 2022 a las 16:37",
+      "reminder": true,
+      "id": 7
     }
   ]
 }
