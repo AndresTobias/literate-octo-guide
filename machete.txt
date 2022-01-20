@@ -1,12 +1,26 @@
-para instalar el servidor json-server que te permite acceder a un json como una bd.
+**agregar** componentes
+ng g c nombreDelComponente
+o
+ng generate componente nombreDelComponente
+-------------------------------------------------------
+
+
+
+
+
+
+
+para **instalar** el servidor json-server que te permite acceder a un json como una bd.
 
 $ npm install json-server  o  $ npm i -g json-server
-
+con 
+json-server -v 
+muestra la vercion si quedo instalado.
 -------------------------------------------------------
 despues de istalar modificar el archivo package.json 
 agregar {"server": "json-server --watch db.json --port 5000"}
 te permite llamarlo solo con 
-ng run server
+ng run server en una terminal de vsc 
 
 
  "scripts": {
